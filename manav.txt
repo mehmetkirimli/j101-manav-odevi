@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class manav {
+    public static void main(String[] args) {
+        double armut , elma , domates , muz , patlican ;
+        Scanner bjk = new Scanner(System.in);
+        armut = 2.14 ;
+        elma = 3.67;
+        domates = 1.11;
+        muz = 0.95;
+        patlican = 5.00;
+        double ar,el,dom,mu,pa,toplam;
+        System.out.println("armut kac kilo olsun  :");
+        ar =bjk.nextDouble();
+        System.out.println("elma kac kilo olsun  :");
+        el =bjk.nextDouble();
+        System.out.println("domates kac kilo olsun  :");
+        dom=bjk.nextDouble();
+        System.out.println("muz kac kilo olsun  :");
+        mu =bjk.nextDouble();
+        System.out.println("patlican kac kilo olsun  :");
+        pa =bjk.nextDouble();
+        toplam=((armut*ar)+(elma*el)+(domates*dom)+(muz*mu)+(patlican*pa));
+        System.out.println("Toplam borcunuz ablacimm  : "  +  toplam  +" tl ");
+    }
+}
